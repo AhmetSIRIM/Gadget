@@ -3,4 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.permission.PermissionFragment" />
+    tools:context=".ui.permission.PermissionFragment">
+
+    <Button
+        android:id="@+id/button_allow_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/allow_the_camera"
+        android:visibility="gone" />
+
+</FrameLayout>
+
