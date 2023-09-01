@@ -49,6 +49,7 @@ class PermissionFragment : Fragment() {
             }
 
             false -> {
+                binding.animationViewCamera.visibility = VISIBLE
                 binding.buttonAllowCamera.apply {
                     visibility = VISIBLE
                     setOnClickListener { requestCameraPermission() }

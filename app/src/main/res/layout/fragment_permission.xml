@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.permission.PermissionFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation_camera"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button_allow_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="@string/allow_the_camera"
-        android:visibility="gone" />
+        android:layout_marginTop="200dp"
+        android:text="@string/open_the_camera"
+        android:visibility="gone"
+        tools:visibility="visible" />
 
 </FrameLayout>
 

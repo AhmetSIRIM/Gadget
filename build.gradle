@@ -15,4 +15,8 @@ ext {
 
     navigation_version = "2.7.1"
 
+    camerax_version = "1.2.3"
+
+    lottie_version = "4.2.0"
+
 }
